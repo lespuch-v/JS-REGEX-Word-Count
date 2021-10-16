@@ -1,8 +1,12 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .main-container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 .just-container{
     display: flex;
@@ -12,4 +16,11 @@
     padding: 30px;
     background-color: rgb(230, 230, 230);
     box-shadow: 5px 5px 2px;
+    width: 550px;
+}
+#myForm{
+    font-size: 1rem;
+}
+h2{
+    margin: 10px;
 }
